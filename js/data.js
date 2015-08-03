@@ -12,7 +12,7 @@ function sendToParse(names, elt) {
     var url1 = 'http://shiffman.net/randomizer/groups.html?id='+id;
     var url2 = 'http://shiffman.net/randomizer/spin.html?id='+id;
     //var url = 'http://localhost:8001/spin.html?id='+id;
-    elt.html('<a href="' + url1 +'">' + url1 +'</a><br />' + '<a href="' + url2 +'">' + url2 +'</a><br />');
+    elt.html('// Shuffle names into groups</br><a href="' + url1 +'">' + url1 +'</a></br>// Randomly pick one name</br><a href="' + url2 +'">' + url2 +'</a>');
   });
 }
 
